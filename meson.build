@@ -6,3 +6,7 @@ executable('provisioningd',
   install_dir: '/usr/bin'
 )
 
+install_data('provisioningd.service',
+  install_dir: '/lib/systemd/system'
+)
+
