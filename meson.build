@@ -7,6 +7,6 @@ executable('provisioningd',
 )
 
 install_data('xyz.openbmc_project.Provisioning.service',
-  install_dir: '/lib/systemd/system'
+  install_dir: '/usr/lib/systemd/system'
 )
 
